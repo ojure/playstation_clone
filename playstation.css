@@ -1,0 +1,2898 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'SST',"Albert Sans", sans-serif;
+	font-style: normal;
+}
+
+* {
+	box-sizing: border-box
+}
+
+#block1 {
+	width: 100%;
+	background-color: black;
+	height: 50px;
+	position: relative;
+}
+
+#sony {
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+
+#b2b3cover {
+	width: 100%;
+}
+
+#block2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	
+}
+
+#block2cover {
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+#pslogo {
+	width: 15%;
+	background-image: url(pictures/pslogo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 60px;
+}
+
+#items {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#signandsearch {
+	width: 15%;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#sign {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	justify-content: center;
+	color: white;
+	background-color: rgb(34, 90, 203);
+}
+#signin{
+	width: 100%;
+	text-align: center;
+}
+
+#searchbar {
+	width: 40%;
+	text-align: center;
+	display: flex;
+	justify-content: left;
+	padding: 10px;
+
+}
+
+#block3 {
+	width: 100%;
+
+}
+
+#getheight1 {
+	width: 100%;
+}
+
+#stickyboard {
+	width: 100%;
+	background-image: url(pictures/bluewhitebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 50px;
+	background-color: rgb(73, 70, 241);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#block4 {
+	width: 100%;
+
+}
+
+#mainframe {
+	width: 100%;
+	background-image: url(pictures/fc25mainframe1.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#mainframecontent {
+	width: 80%;
+	color: white;
+	padding-bottom: 30px;
+	font-size: 50px;
+
+
+}
+
+#imgfc25 {
+	width: 100%;
+	font-size: 14px;
+	font-weight: 400px;
+	height: 62.3438px;
+	line-height: 21px;
+}
+
+#title {
+	width: 100%;
+	font-size: 34px;
+	line-height: 43px;
+	font-family: sans-serif;
+	padding-top: 30px;
+
+}
+
+#content {
+	width: 100%;
+	line-height: 21px;
+	font-family: sst, Arial, sans-serif;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+#content2 {
+	width: 100%;
+	line-height: 21px;
+	font-family: sst, Arial, sans-serif;
+	font-size: 14px;
+	padding-bottom: 28px;
+}
+
+#btn {
+
+	width: 15%;
+	background-color: rgb(255, 255, 255);
+
+	border-bottom-left-radius: 28px;
+	border-bottom-right-radius: 28px;
+	border-top-left-radius: 28px;
+	border-top-right-radius: 28px;
+	border-top-right-radius: 28px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 17.5px;
+	padding-bottom: 10px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 10px;
+	pointer-events: all;
+	cursor: pointer;
+	text-align: center;
+}
+
+#image1 {
+	width: 25%;
+}
+
+#image2 {
+	width: 10%;
+}
+
+#image3 {
+	width: 10%;
+}
+
+#image6 {
+	width: 25%;
+}
+
+#image5 {
+	width: 20%;
+	padding-bottom: 10px;
+}
+
+#image8 {
+	width: 25%;
+}
+
+#childframecover {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+}
+
+#childframe {
+	min-width:90%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#frame1cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#frame1 {
+	width: 100%;
+	background-image: url(pictures/fc25.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+
+
+}
+
+#frame2cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#frame2 {
+	width: 100%;
+	background-image: url(pictures/astro1.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+}
+
+#frame3cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#frame3 {
+	width: 100%;
+	background-image: url(pictures/playstation.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+}
+
+#frame4cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+}
+
+#frame4 {
+	width: 100%;
+	background-image: url(pictures/anniversory.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+}
+
+#frame5cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#frame5 {
+	width: 100%;
+	background-image: url(pictures/coddb.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+}
+
+#frame6cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#frame6 {
+	width: 100%;
+	background-image: url(pictures/mortalkombatdp.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+}
+
+#frame7cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#frame7 {
+	width: 100%;
+	background-image: url(pictures/appletv.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+}
+
+#frame8cover {
+	width: 17%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+}
+
+#frame8 {
+	width: 100%;
+	background-image: url(pictures/carton.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+
+}
+
+#mainblock5 {
+	width: 100%;
+}
+
+#block5 {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 200px;
+	justify-content: center;
+
+}
+
+#block5cover {
+	width: 83%;
+	display: flex;
+	justify-content: center;
+}
+
+#introducingcover {
+	width: 40%;
+}
+
+#introducing {
+	width: 100%;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 49px;
+	line-height: 61.25px;
+	font-weight: 100;
+	color: rgb(31, 31, 31);
+	padding-bottom: 40px;
+
+}
+
+#ps5text {
+	width: 100%;
+}
+
+#console {
+	width: 100%;
+}
+
+#expcover {
+	width: 100%;
+	line-height: 15px;
+}
+
+#playstationblue {
+	width: 100%;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	color: rgb(0, 104, 189)
+}
+
+#exp {
+	width: 100%;
+	padding-top: 20px;
+	color: rgb(107, 107, 107);
+}
+
+#findmain {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px 20px 0px;
+}
+
+#findcover {
+	width: 60%;
+	border-radius: 20px;
+	background-color: rgb(0, 112, 204);
+	height: 40px;
+	text-align: center;
+	color: antiquewhite;
+	display: flex;
+	align-items: center;
+}
+
+#find {
+	width: 100%;
+	text-align: center;
+}
+
+#buycover {
+	width: 38%;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	background-color: rgb(213, 59, 0);
+	height: 40px;
+}
+
+#buy {
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+#ps5gamescover {
+	width: 55%;
+}
+
+#ps5games {
+	width: 90%;
+	background-image: url(pictures/ps5slimandpad.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+}
+
+#sonslidecover {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+	overflow: auto;
+	white-space: nowrap;
+
+}
+
+
+#sonslide {
+
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+#slide1cover {
+	width: 100%;
+}
+
+/*#slide1{
+	width: 10%;
+	background-image: url(pictures/ps5slimandpad.webp);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+
+}
+*/
+#sonslidecover {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 35px;
+	overflow-x: scroll;
+	flex-wrap: nowrap;
+	padding-bottom: 25px;
+}
+
+#sonslide {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(255, 255, 255);
+	opacity: 0.8;
+
+}
+
+#slide1cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+.slideborder{
+width: 90%;
+
+border-radius: 10px;
+
+}
+
+#slide1 {
+	width:95%;
+
+	background-image: url(pictures/ps5slimandpad.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 5px whitesmoke;
+	margin: 5px;
+}
+.slidecover:hover{
+	/*border: solid 3px  rgb(0, 100, 183);*/
+cursor: pointer;
+transform: scale(1.025);
+transition: .5s;
+}
+
+#slide2cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+#slide2 {
+	width: 95%;
+	background-image: url(pictures/ps5pad.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	margin: 5px;
+	box-shadow: 0px 0px 5px 5px whitesmoke;
+	
+}
+
+#slide3cover {
+	min-width:21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+
+#slide3 {
+	width: 95%;
+	background-image: url(pictures/ps5airpod.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	
+	margin: 5px;
+	box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+
+#slide4cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+#slide4 {
+	width: 95%;
+	background-image: url(pictures/earbud.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	
+	margin: 5px;
+	box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+
+#slide5cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+	
+
+	
+	
+
+#slide5 {
+	width: 95%;
+	background-image: url(pictures/dualshock.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	
+	margin: 5px;
+	box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+
+#slide6cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+#slide6 {
+	width: 95%;
+	background-image: url(pictures/accesscontrol.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	
+	margin: 5px;
+	box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+
+#slide7cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+#slide7 {
+	width: 95%;
+	background-image: url(pictures/ps5consolecover.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	
+	margin: 5px;
+	box-shadow:0px 0px  5px 5px whitesmoke;
+}
+
+#slide8cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+#slide8 {
+	width: 95%;
+	background-image: url(pictures/remote.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	
+	margin: 5px;
+	box-shadow:0px 0px  5px 5px whitesmoke;
+
+}
+
+#slide9cover {
+	min-width: 21%;
+	
+	border-radius: 10px;
+	
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+#slide9 {
+	width: 95%;
+	background-image: url(pictures/hdcamera.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 120px;
+	border-radius: 10px;
+	
+	margin: 5px;
+	box-shadow:0px 0px  5px 5px whitesmoke;
+
+}
+
+#ps5image1 {
+	width: 100%;
+}
+
+#scrollMother {
+	width: 100%;
+	position: relative;
+	padding-bottom: 200px;
+}
+
+#scrollson {
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 80px;
+	height: 50px;
+	z-index: 1;
+
+}
+
+#leftbutton {
+
+	width: 18%;
+	background-color: rgb(0, 100, 183);
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#rightbutton {
+	width: 18%;
+	background-color: rgb(0, 100, 183);
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#leftbuttoncover {
+	width: 20%;
+	position: absolute;
+	left: 128px;
+
+
+}
+
+#rightbuttoncover {
+	width: 20%;
+	position: absolute;
+	right: -150px;
+	
+}
+
+#block6 {
+	width: 100%;
+	background-color: black;
+	height: 850px;
+}
+
+#great {
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	font-style: normal;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 41px;
+	padding-bottom: 50px;
+}
+
+
+#newcontainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+
+}
+
+#new {
+	width: 18%;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(17, 16, 16);
+	border: solid;
+	border-radius: 30px;
+
+}
+
+#newreleasecover {
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+}
+
+#newrelease{
+	width: 100%;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 26px;
+	cursor: pointer;
+}
+
+#sooncover {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#soon {
+	width: 100%;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 15px;
+	background-color: rgb(17, 16, 16);
+	border-radius: 26px;
+	cursor: pointer;
+}
+
+.board1cover {
+	min-width: 1074px;
+	top: 120px;
+	height: 250px;
+	position: absolute;
+	display: none;
+}
+.board2cover {
+	min-width: 1074px;
+	top: 354px;
+	height: 250px;
+	position: absolute;
+	display: none;
+}
+
+#board2 {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.shownew{
+	
+	display: block;
+	display: flex;
+    justify-content:space-between;
+	margin-left: -323px;
+}
+
+.board1 {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.board1sooncover {
+	min-width: 1074px;
+	height: 250px;
+	position :absolute;
+	display: none;
+	top:120px;
+}
+
+.board1soon {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.board2sooncover {
+	min-width: 1074px;
+	top: 354px;
+	height: 250px;
+	position:absolute;
+	display: none;
+}
+.board2soon {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+	.showsoon{
+	
+		display: block;
+		display: flex;
+		justify-content:space-between;
+	margin-left: -398px;	
+	}
+.astrops5 {
+	width: 13%;
+}
+
+.astrocontent {
+	width: 100%;
+	background-image: url(pictures/boardastro.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+.astrolabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#monk {
+	width: 13%;
+}
+
+#monkcontent {
+	width: 100%;
+	background-image: url(pictures/boardmonk.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#monklabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#outlaw {
+	width: 13%;
+}
+
+#outlawcontent {
+	width: 100%;
+	background-image: url(pictures/boardoutlaw.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#outlawlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#valorant {
+	width: 13%;
+}
+
+#valorantcontent {
+	width: 100%;
+	background-image: url(pictures/boardvalorant.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#valorantlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#ronin {
+	width: 13%;
+}
+
+#ronincontent {
+	width: 100%;
+	background-image: url(pictures/boardronin.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#roninlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#warhammer {
+	width: 13%;
+}
+
+#warhammercontent {
+	width: 100%;
+	background-image: url(pictures/boardwarhammer.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#warhammerlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+
+
+#blade {
+	width: 13%;
+}
+
+#bladecontent {
+	width: 100%;
+	background-image: url(pictures/board2blade.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#bladelabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#elden {
+	width: 13%;
+}
+
+#eldencontent {
+	width: 100%;
+	background-image: url(pictures/board2elden.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#eldenlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#helldive {
+	width: 13%;
+}
+
+#helldivecontent {
+	width: 100%;
+	background-image: url(pictures/board2helldiver.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#helldivelabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#plucky {
+	width: 13%;
+}
+
+#pluckycontent {
+	width: 100%;
+	background-image: url(pictures/board2plucky.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#pluckylabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#last {
+	width: 13%;
+}
+
+#lastcontent {
+	width: 100%;
+	background-image: url(pictures/boardlast.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#lastlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#final {
+	width: 13%;
+}
+
+#finalcontent {
+	width: 100%;
+	background-image: url(pictures/boardfinal.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#finallabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+
+.astrops5 {
+	width: 13%;
+}
+
+.dragoncontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic1.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+.dragonlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#monk {
+	width: 13%;
+}
+
+#mafiacontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic2.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#mafialabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#outlaw {
+	width: 13%;
+}
+
+#soniccontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic3.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#soniclabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#valorant {
+	width: 13%;
+}
+
+#monstercontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic4.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#monsterlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#ronin {
+	width: 13%;
+}
+
+#doomcontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic5.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#doomlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#warhammer {
+	width: 13%;
+}
+
+#deathcontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic6.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#deathlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+
+
+#blade {
+	width: 13%;
+}
+
+#nightcontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic7.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#nightlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#elden {
+	width: 13%;
+}
+
+#civilizationcontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic8.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#civilizationlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#helldive {
+	width: 13%;
+}
+
+#horizoncontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic9.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#horizonlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#plucky {
+	width: 13%;
+}
+
+#callcontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic10.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#calllabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#last {
+	width: 13%;
+}
+
+#assasincontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic11.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#assasinlabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+#final {
+	width: 13%;
+}
+
+#indianacontent {
+	width: 100%;
+	background-image: url(pictures/comingsoonpic12.webp);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 160px;
+	border-radius: 10px;
+}
+
+#indianalabel {
+	width: 100%;
+	padding-top: 10px;
+	color: white;
+}
+
+
+
+#block7cover {
+	width: 100%;
+	background-color: gray;
+	height: 780px;
+}
+
+#block7 {
+	width: 100%;
+}
+
+#svgcover {
+	width: 100%;
+	height: 150px;
+	padding: 100px 0px 60px 0px;
+
+}
+
+
+#playstationsvg {
+	width: 100%;
+	background-image: url(pictures/PlayStationPlussvg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 50px;
+
+}
+
+#discover {
+	width: 100%;
+	font-size: 50px;
+
+	text-align: center;
+
+}
+
+#playstationcontent {
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	opacity: 0.6;
+	padding-bottom: 30px;
+}
+
+#block7framecover {
+	width: 100%;
+}
+
+#block7frame {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 400px;
+	overflow-x: scroll;
+	flex-wrap: nowrap;
+
+}
+
+#w24cover {
+	min-width: 60%;
+
+}
+
+#w24 {
+	width: 98%;
+	background-image: url(pictures/w24.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	border-radius: 20px;
+
+}
+
+#spidermancover {
+	min-width: 60%;
+
+}
+
+#spiderman {
+	width: 98%;
+	background-image: url(pictures/spiderman.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	border-radius: 20px;
+
+}
+
+#babycover {
+	min-width: 60%;
+
+
+}
+
+#baby {
+	width: 98%;
+	background-image: url(pictures/baby.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+	border-radius: 20px;
+
+
+}
+
+#discovermain {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+#discoverbuttoncover {
+	width: 15%;
+
+	border-radius: 20px;
+	background-color: blue;
+	padding: 10px;
+}
+
+#discoverbutton {
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+#block8cover {
+	width: 100%;
+	height: 650px;
+}
+
+#block8 {
+	width: 100%;
+	background-image: url(pictures/oculus.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	height: 650px;
+
+}
+
+#block9cover {
+	width: 100%;
+	background-image: url(pictures/humanskull.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+}
+
+#block9 {
+	width: 100%;
+	display: flex;
+	
+	padding-top: 100px;
+	justify-content: center;
+	
+}
+#block9slidecover{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+
+
+#nevacover {
+
+	min-width: 33%;
+	display: flex;
+	justify-content: center;
+
+}
+.nevacontentcover{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#neva {
+
+	width: 100%;
+	background-image: url(pictures/neva.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 218px;
+    border-radius: 25px;
+	color :rgb(255, 255, 255);
+cursor :pointer;
+direction :ltr;
+display :block;
+font-family: sst, Arial, sans-serif;
+font-size :16px;
+font-style:normal;
+font-weight :400;
+height :212.242px;
+line-height :24px;
+pointer-events: all;
+position :relative;
+unicode-bidi: isolate;
+width :377.328px;
+
+}
+#nevacontent1{
+	color: rgb(255, 255, 255);
+cursor :pointer;
+direction :ltr;
+display :flow-root;
+font-family :sst, Arial, sans-serif;
+font-size :20px;
+font-style:normal;
+font-weight:300;
+height :25px;
+letter-spacing :0.1px;
+line-height :25px;
+margin-block-end :8px;
+margin-block-start :0px;
+margin-inline-end: 0px;
+margin-inline-start :0px;
+overflow-x :hidden;
+overflow-y :hidden;
+width: 345.328px;
+}
+#nevacontent2{
+	color: rgb(255, 255, 255);
+cursor: pointer;
+direction :ltr;
+display :flow-root;
+font-family :sst, Arial, sans-serif;
+font-size :14px;
+font-style :normal;
+font-weight :400;
+height :42px;
+line-height :21px;
+margin-block-end: 0px;
+margin-block-start :0px;
+margin-bottom: 0px;
+margin-inline-end :0px;
+margin-inline-start: 0px;
+margin-left :0px;
+margin-right :0px;
+margin-top: 0px;
+overflow-x :hidden;
+overflow-y :hidden;
+width :345.328px;
+}
+
+#spiritborncover {
+
+	min-width: 33%;
+	display: flex;
+	justify-content: center;
+}
+
+#spiritborn {
+
+	width: 100%;
+	background-image: url(pictures/Spiritborn2.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 218px;
+    border-radius: 25px;
+	color :rgb(255, 255, 255);
+	cursor: pointer;
+		direction :ltr;
+	display :block;
+	font-family :sst, Arial, sans-serif;
+	font-size: 16px;
+	font-style :normal;
+	font-weight :400;
+	height :206.805px;
+	line-height: 24px;
+	pointer-events :all;
+	position :relative;
+	width :367.664px;
+
+}
+.spiritcontentcover{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.spiritcontent{
+	width: 90%;
+}
+#spiritcontent1{
+	width: 100%;
+color:rgb(255, 255, 255);
+cursor: pointer;
+direction :ltr;
+display: flow-root;
+font-family:sst, Arial, sans-serif;
+font-size: 20px;
+font-style :normal;
+font-weight :100;
+height :25px;
+letter-spacing :0.1px;
+line-height :25px;
+margin-block-end :8px;
+
+}
+#spiritcontent2{
+	color: rgb(255, 255, 255);
+cursor :pointer;
+direction:ltr;
+display :flow-root;
+font-family :sst, Arial, sans-serif;
+font-size: 14px;
+font-style :normal;
+font-weight: 400;
+
+line-height: 21px;
+}
+#dawnframe{
+	min-width: none;
+	 
+}
+#dawnframe:hover{
+min-width: 120px;
+border: solid 2px black;
+border-radius: 20px;
+box-shadow:rgba(0, 0, 0, 0.06) 0px 4px 8px 0px;
+cursor: pointer;
+transform:translateY(-20px);
+transition: .2s;
+padding: 10px 10px;
+
+
+}
+#dawncover {
+	display: flex;
+	justify-content: center;
+	min-width: 33%;
+}
+
+#dawn {
+
+	width: 100%;
+	background-image: url(pictures/dawn2.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 218px;
+    border-radius: 25px;
+	color :rgb(255, 255, 255);
+cursor :pointer;
+direction :ltr;
+display :block;
+font-family :sst, Arial, sans-serif;
+font-size :16px;
+font-style :normal;
+font-weight: 400;
+height :207.742px;
+line-height: 24px;
+pointer-events :all;
+position :relative;
+width:369.328px;
+}
+.dawncontentcover{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+#dawncontent1{
+color :rgb(255, 255, 255);
+cursor: pointer;
+direction: ltr;
+display :flow-root;
+font-family: sst, Arial, sans-serif;
+font-size :20px;
+font-style :normal;
+font-weight: 300;
+height :25px;
+letter-spacing :0.1px;
+line-height :25px;
+margin-block-end: 8px;
+margin-block-start :0px;
+margin-inline-end :0px;
+margin-inline-start: 0px;
+overflow-x :hidden;
+overflow-y :hidden;
+
+width :345.328px;
+}
+
+#dawncontent2{
+	color: rgb(255, 255, 255);
+cursor: pointer;
+direction: ltr;
+display :flow-root;
+font-family: sst, Arial, sans-serif;
+font-size :14px;
+font-style :normal;
+font-weight: 400;
+height :42px;
+line-height: 21px;
+margin-block-end :0px;
+margin-block-start: 0px;
+margin-bottom :0px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-left :0px;
+margin-right: 0px;
+margin-top :0px;
+overflow-x :hidden;
+overflow-y :hidden;
+
+width: 345.328px;
+}
+
+#findmain2 {
+	width:100%;
+	display:flex;
+	justify-content:center;
+	padding-top:100px;
+
+}
+
+#findbuttoncover {
+	width: 15%;
+
+	border-radius: 20px;
+	background-color: white;
+	padding: 10px;
+}
+
+#findbutton {
+	width: 100%;
+	color: black;
+	text-align: center;
+}
+
+#block10cover {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 550px;
+	padding-top: 100px;
+}
+
+#block10 {
+	width: 68%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#ps5store {
+	width: 35%;
+	position: relative;
+	top: 75px;
+}
+
+#ps5logobox {
+	width: 100%;
+	background-image: url(pictures/playstationbag2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 75px;
+	position: absolute;
+	top: -77px;
+	right: 35px;
+}
+
+
+
+#ps5logoboxcontent {
+	width: 100%;
+	font-size: 35px;
+	font-weight: 100;
+	font-family: sans-serif;
+	font-style: normal;
+
+}
+
+#discount {
+	width: 100%;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	opacity: 0.6;
+	line-height: 20px;
+	padding-top: 15px;
+}
+
+#ps5boxbtncover {
+	width: 100%;
+	padding: 40px 0px;
+
+}
+
+#ps5boxbtn {
+	width: 31%;
+	border-radius: 20px;
+	background-color: red;
+	text-align: center;
+	padding: 8px;
+	color: white;
+}
+
+#ps5box {
+	width: 65%;
+	background-image: url(pictures/ps5box.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 357px;
+	border-radius: 20px;
+}
+
+#ps5box:hover {
+	transform: translateZ(10px);
+	transition: all .5s;
+	min-width: -10px;
+}
+
+#the {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 100;
+	color: black;
+	padding: 75px;
+}
+
+#block10framecover {
+	width: 100%;
+
+}
+
+#block10frame {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	overflow-x: scroll;
+	flex-wrap: nowrap;
+
+
+}
+
+#block10frame1cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+
+}
+
+#block10frame2cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame3cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame4cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame5cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame6cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame7cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame8cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame9cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+#block10frame10cover {
+	min-width: 25%;
+	display: flex;
+	justify-content: center;
+	height: 200px;
+}
+
+
+#block10frame1 {
+	width: 90%;
+	background-image: url(pictures/block10share.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	border-radius: 20px;
+
+}
+
+#block10frame2 {
+	width: 90%;
+	background-image: url(pictures/block10metro.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	border-radius: 20px;
+}
+
+#block10frame3 {
+	width: 90%;
+	background-image: url(pictures/block10undisputed.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	border-radius: 20px;
+}
+	
+#block10frame4 {
+
+	background-image: url(pictures/block10silent.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+#block10frame5 {
+
+	background-image: url(pictures/block10baldur.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+#block10frame6 {
+
+	background-image: url(pictures/block10players.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+#block10frame7 {
+
+	background-image: url(pictures/block10starship.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+#block10frame8 {
+
+	background-image: url(pictures/block10official.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+#block10frame9 {
+
+	background-image: url(pictures/block10astrobot.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+#block10frame10 {
+
+	background-image: url(pictures/block10tokyo.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	width: 90%;
+	border-radius: 20px;
+}
+
+#block11cover {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+
+}
+
+#follow {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	height: 500px;
+	background-color: whitesmoke;
+	padding-top: 100px;
+}
+
+#block11 {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+
+#block11x {
+	width: 20%;
+	background-image: url(pictures/xlogo.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	padding: 25px;
+}
+
+#block11f {
+	width: 20%;
+	background-image: url(pictures/flog.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	padding: 25px;
+}
+
+#block11in {
+	width: 20%;
+	background-image: url(pictures/instagramlogo.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	padding: 25px;
+}
+
+#block11y {
+	width: 20%;
+	background-image: url(pictures/youtubelogo.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 200px;
+	padding: 25px;
+}
+#endingblockcover{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 67, 157);
+	color: white;
+	font-weight: 100;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-style: normal;
+	line-height: 25px;
+
+}
+#endingblock{
+	width: 80%;
+	
+}
+#playstationending{
+	width: 100%;
+	background-image: url(pictures/playstationfamilylogo2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:left;
+	height: 200px;
+
+}
+#allcovers{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+}
+.gameps5dropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+.gameps5drop{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+}
+
+#games{
+	width:3%;
+	position: relative;
+	display: inline-block;
+	transition: all linear .5s;
+	cursor: pointer;
+}
+.gameps5dropcovermain{
+	width: 80%;
+	display: flex;
+    justify-content: center;
+}
+.show{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -250px;
+	
+}
+
+.ps5drop{
+	width:10% ;
+	background-image: url(pictures/gamespics1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.ps4drop{
+	width:10% ;
+	background-image: url(pictures/gamespics2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.psvr2drop{
+	width:10% ;
+	background-image: url(pictures/gamespics3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.pcdrop{
+	width:9% ;
+	background-image: url(pictures/gamespics4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+}
+.psplus{
+	width:10% ;
+	background-image: url(pictures/gamespics5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+
+}
+#browsercover{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 130px;
+    height: 70px;
+    padding: 25px;
+    border-top: solid 1px rgb(204, 204, 204);
+	cursor: pointer;
+
+}
+#browsercovermain{
+	width: 37%;
+	display: flex;
+	justify-content: space-between;
+	
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 500;
+    font-size: 15px;
+}
+
+.feel{
+	width: 100%;
+	color: white;
+	font-size: 39px;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 48px;
+	
+}
+#immerse{
+	font-size: 16px;
+	font-style: normal;
+	font-family: sans-serif;
+	line-height: 24px;
+	color: white;
+	margin-block-end :16px;
+	margin-block-start :16px;
+	margin-bottom :16px;
+
+}
+#findfeelmain {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+	color: white;
+}
+#findfeelcover {
+    width: 57%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    text-align: center;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+#findfeel {
+    width: 100%;
+    text-align: center;
+	color: black;
+}
+#buycoverfeel {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(213, 59, 0);
+    height: 40px;
+}
+#buyfeel1{
+    width: 100%;
+     color: white;
+}
+
+#buyfeel2{
+	width: 100%;
+     color: white;
+	 text-align: center;
+}
+#feelmain{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	height:650px;
+	justify-content: center;
+	position: relative;
+}
+#feelcover{
+	width: 93%;
+	position: absolute;
+	display :flex;
+flex-direction :column;
+margin-left :41px;
+margin-right: 41px;
+column-gap: 32px;
+grid-template-columns: 1fr;
+height: 430px;
+margin-block-start: 185px;
+}
+#bannercoverblock8{
+	align-items :flex-start;
+	color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+font-family :sst, Arial, sans-serif;
+font-size :16px;
+font-style :normal;
+font-weight :400;
+height :262.594px;
+line-height :24px;
+margin-block-start: 0px;
+max-width :526.65px;
+pointer-events :none;
+position :relative;
+width:526.648px;
+}
+#octobercover{
+	width: 100%;
+	margin-left: 45px;
+	justify-content:center ;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+#octobermain{
+	width: 50%;
+	color: white;
+	
+	height: 218.5px;
+	
+	
+}
+#october{
+	width:100%;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 49px;
+	line-height: 62px;
+}
+#check{
+	width: 100%;
+	padding-top: 20px;
+	color:rgb(178, 178, 178) ;
+	font-family: sst, Arial, sans-serif;
+font-size :16px;
+font-style: normal;
+font-weight :400;
+height :48px;
+letter-spacing :0.1px;
+line-height :24px;
+	
+}
+.ps5{
+	width:3%;
+	position: relative;
+	display: inline-block;
+	
+}
+.ps5dropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+.ps5drop1{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.ps5dropcovermain{
+	width: 80%;
+	display: flex;
+	justify-content:center;
+}
+.consoledrop{
+	width:10% ;
+	background-image: url(pictures/ps5pic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.gameslightdrop{
+	width:10% ;
+	background-image: url(pictures/ps5pic2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.controllersdrop{
+	width:10% ;
+	background-image: url(pictures/ps5pic3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.headsetsdrop{
+	width:10% ;
+	background-image: url(pictures/ps5pic4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.audiodrop{
+	width:10% ;
+	background-image: url(pictures/ps5pic5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.show2{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -300px;
+	
+}
+.ps4{
+	width:3%;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.ps4dropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+
+
+.consoleps4drop{
+	width:10% ;
+	background-image: url(pictures/ps4pic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.gameslightps4drop{
+	width:10% ;
+	background-image: url(pictures/ps4pic2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.controllersps4drop{
+	width:10% ;
+	background-image: url(pictures/ps4pic3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.headsetsps4drop{
+	width:10% ;
+	background-image: url(pictures/ps4pic4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.show3{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -390px;
+	
+}
+.services1{
+	width:3%;
+	position: relative;
+	display: inline-block;
+}
+.servicesdropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+
+.psplusservicesdrop{
+	width:10% ;
+	background-image: url(pictures/servicepic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.psstartservicesdrop{
+	width:10% ;
+	background-image: url(pictures/servicepic2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.show4{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -535px;	
+}
+.accessories{
+	width:3%;
+	position: relative;
+	display: inline-block;
+	
+}
+.accessoriesdropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+.accessories1drop{
+	width:10% ;
+	background-image: url(pictures/accessoriespic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.accessories2drop{
+	width:10% ;
+	background-image: url(pictures/accessoriespic2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.accessories3drop{
+	width:10% ;
+	background-image: url(pictures/accessoriespic3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.accessories4drop{
+	width:10% ;
+	background-image: url(pictures/accessoriespic4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.accessories5drop{
+	width:10% ;
+	background-image: url(pictures/accessoriespic5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.show5{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -622px;	
+}
+.news{
+	width:3%;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.newsdropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+
+.new1drop{
+	width:10% ;
+	background-image: url(pictures/newspic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.new2drop{
+	width:10% ;
+	background-image: url(pictures/newspic2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.show6{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -700px;	
+}
+
+.store{
+	width:3%;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.storedropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+
+.store1drop{
+	width:10% ;
+	background-image: url(pictures/storepic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.store2drop{
+	width:10% ;
+	background-image: url(pictures/storepic2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.store3drop{
+	width:10% ;
+	background-image: url(pictures/storepic3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.store4drop{
+	width:10% ;
+	background-image: url(pictures/storepic4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.show7{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -750px;	
+}
+
+.support{
+	width:3%;
+	position: relative;
+	display: inline-block;
+	
+}
+
+.supportdropcover{
+	min-width: 1500px;
+    position: absolute;
+    height: 200px;
+    background-color: white;
+    color: black;
+	display: none;
+	top: 35px;
+}
+
+.support1drop{
+	width:10% ;
+	background-image: url(pictures/supportpic1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+.support2drop{
+	width:10% ;
+	background-image: url(pictures/supportpic2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100px;
+}
+
+.show8{
+	
+	display: block;
+	display: flex;
+	justify-content:space-between;
+	margin-left: -850px;	
+}
+.trans{
+transform: translateX(0px);	
+transition: transform .5s ease-in;
+transition-duration:.8s;
+
+}
