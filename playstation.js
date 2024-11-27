@@ -7,7 +7,6 @@ function load(a,b,c,d,e){
   let handle4 = document.getElementById("content2");
   let handle5 = document.getElementById("btn"); 
  
-  
   handle0. style.transform="translateY(-20px)" ;
 handle0.style.transition = "all linear .8s";
 
@@ -67,7 +66,7 @@ function fixed(){
 
 window.addEventListener("scroll",fixed);
 
-function slideaction(a,b,c,d,e,f,g,h){
+function slideaction(a,b,c,d,e,f,g,h,i){
   let handle8 = document.getElementById("ps5games"); 
   let handle1 = document.getElementById("ps5text");
   let handle2 = document.getElementById("console");
@@ -76,18 +75,11 @@ function slideaction(a,b,c,d,e,f,g,h){
   let handle5 = document.getElementById("exp");
   let handle6 = document.getElementById("find"); 
   let handle7 = document.getElementById("buy"); 
-  let handle9=document.getElementById("slide1border");
-  let handle10=document.getElementById("slide2border");
-  let handle11=document.getElementById("slide3border");
-  let handle12=document.getElementById("slide4border");
-  let handle13=document.getElementById("slide5border");
-  let handle14=document.getElementById("slide6border");
-  let handle15=document.getElementById("slide7border");
-  let handle16=document.getElementById("slide8border");
-  let handle17=document.getElementById("slide9border");
+  let handle9 = document.getElementById("slide2border"); 
+  
 
   handle8.style.backgroundImage = "url(" + h + ")";
-  
+  /*handle9.style.border="solid 3px rgb(0, 100, 183)";*/
 
   handle1.innerHTML = a;
   handle2.innerHTML = b;
@@ -97,13 +89,15 @@ function slideaction(a,b,c,d,e,f,g,h){
   handle6.innerHTML = f;
   handle7.innerHTML = g;
   handle8.innerHTML = h;
- if (handle9.style.border="solid"){
+  handle9.innerHTML = i;
+
+
+ /*if (handle9.style.border="solid"){
   handle9.style.border="none";
   handle10.style.border="solid 3px rgb(0, 100, 183)";
- 
-  
+  */
  }
-}
+
 function loadblock5(a,b,c,d,e,f,g,h){
   let handle8 = document.getElementById("ps5games"); 
   
@@ -318,7 +312,6 @@ function leftbutton(){
   
   list.removeChild(last);
   list.insertBefore(last, list.firstElementChild);
-
 }
 window.onload=function border(){
   let handle1=document.getElementById("slide1border");
